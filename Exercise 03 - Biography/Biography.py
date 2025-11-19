@@ -3,7 +3,7 @@
 #Making the user input the details
 name = str(input("Enter your name:"))
 hometown = str(input("Enter your hometown:"))
-#Checking if the age given by the user is string or integer
+#Checking if the age given by the string or integer
 while True:
     age_input = input("Enter your age: ")
     if age_input.isdigit():
