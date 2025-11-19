@@ -1,6 +1,11 @@
+## Exercise 6: Brute Force Attack - 30 Marks
+
+#Defining the correct password
 password = 12345
+#Maximum number of attempts
 max_attempts = 5
 attempts = 0
+#Using while loop to control the attempts
 while attempts < max_attempts:
     a = int(input("Enter your password:"))
     attempts += 1

@@ -1,3 +1,6 @@
+## Exercise 5: Days of the Month - 30 Marks
+
+#Creating dictionary with the months and days
 days_in_month = {
     1:31,
     2:28,
@@ -11,10 +14,11 @@ days_in_month = {
     10:31,
     11:30,
     12:31}
-
+#Asking the user to input the month number
 month = int(input("Enter your month:"))
-
+#Checking if the month is valid
 if 1 <= month <= 12:
+    #Checking leap year for february
     if month == 2:
         leap = input("Is it a leap year?:")
         if leap == "yes":
